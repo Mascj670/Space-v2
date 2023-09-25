@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #2c2c2c; 
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    border-color: #FFD700;
+    color: #2c2c2c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for better spacing */
+    gap: 15px; /* Increased spacing between items */
+}
+
+li {
+    text-align: center;
+    margin: 10px 0; /* Added vertical margin for better spacing */
+}
